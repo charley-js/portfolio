@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="w-64 h-screen bg-gray-800 text-white fixed top-0 left-0 flex flex-col items-center py-4">
-      <Link to="/home" className="text-2xl mb-6">
+      <Link to="/" className="text-2xl mb-6">
         &lt;Charley /&gt;
       </Link>
       <nav>
         <ul className="space-y-4">
           <li>
-            <Link to="/home" className="text-lg hover:underline">
+            <Link to="/" className="text-lg hover:underline">
               Home
             </Link>
           </li>

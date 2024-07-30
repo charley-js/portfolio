@@ -4,6 +4,7 @@ import Sidebar from "./components/layout/Sidebar";
 import DateTime from "./components/shared/DateTime";
 import BackToTop from "./components/shared/BackToTop";
 import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
         <BackToTop />
         <main className="flex-grow">
           <Routes>
-            <Route path="/home" />
+            <Route path="/" element={<Home />} />
             <Route path="/projects" />
             <Route path="/articles" />
             <Route path="/open-source" />

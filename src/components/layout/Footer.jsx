@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center items-center mt-4">
           <p className="flex-grow text-center ml-20 ">
-            &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+            &copy; {new Date().getFullYear()} Charley Crowson. All rights reserved.
           </p>
           <div className="flex space-x-4 ml-auto">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
